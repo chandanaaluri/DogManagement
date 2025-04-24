@@ -1,4 +1,4 @@
-package com.Project.DMS.Controllers;
+package com.example.DMS.Controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
-import com.Project.DMS.Models.Dog;
-import com.Project.DMS.Models.Trainer;
-import com.Project.DMS.repository.DogRepository;
-import com.Project.DMS.repository.TrainerRepository;
+import com.example.DMS.Models.Dog;
+import com.example.DMS.Models.Trainer;
+import com.example.DMS.repository.DogRepository;
+import com.example.DMS.repository.TrainerRepository;
 
 @Controller
 public class DogController {
